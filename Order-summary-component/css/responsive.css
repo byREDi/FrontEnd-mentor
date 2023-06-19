@@ -1,0 +1,76 @@
+@media screen and (max-width: 450px){
+    .container{
+        width: 100vw;
+        height: 100vh;
+    }
+    .box-primary{
+        display: flex;
+        flex-direction: column;
+        width: 330px;
+        height: 650px;
+    }
+    
+    div img{
+        width: 330px;
+        display: inline-block;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .content-2 h3{
+        font-size: 15px;
+    }
+
+    .content-3{
+        font-size: 15px;
+    }
+
+    .value-central img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .button-payment{
+        margin: 30px 50px 20px 34px;
+        width: 80%;
+        height: 5vh;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .container{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .box-primary{
+        display: flex;
+        flex-direction: column;
+        width: 290px;
+        height: 650px;
+    }
+    
+    div img{
+        width: 290px;
+        display: inline-block;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .content-2 h3{
+        font-size: 13px;
+    }
+
+    .content-3{
+        font-size: 12px;
+    }
+
+    .value-central img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .button-payment{
+        margin: 30px 30px 20px 30px;
+        width: 80%;
+        height: 5vh;
+    }
+}

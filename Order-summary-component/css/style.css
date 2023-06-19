@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e0e8ff;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.box-primary{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 650px;
+    border-radius: 10px;
+    background-color: #f5f7ff;
+
+}
+
+div img{
+    display: inline-block;
+    border-radius: 10px 10px 0 0;
+}
+
+.text-content{
+    text-align: center;
+    margin: 30px 40px 0 40px;
+}
+
+.text-content p{
+    padding: 30px;
+    font-size: 16px;
+}
+
+.value-central{
+    width: 80%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-left: 10%;
+    background-color: #e7e9f5;
+}
+
+.content-1{
+    margin-right: 20px;
+    flex: 10%;
+}
+
+.content-2{
+    margin-right: 20px;
+    flex: 55%;
+    font-size: 16px;
+}
+
+.content-3{
+    margin-right: 20px;
+    flex: 15%;
+    font-weight: bold;
+}
+
+.content-3 a:hover{
+    text-decoration: none;
+    color: hsl(268, 100%, 65%);
+}
+
+.button-payment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 40px 20px 45px;
+    width: 80%;
+    height: 5vh;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+}
+
+.button-payment:hover{
+    background-color: hsl(268, 100%, 65%);
+}
+
+.cancel-order{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.cancel-order a{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+
+.cancel-order a:hover{
+    color: rgb(48, 47, 47);
+}
